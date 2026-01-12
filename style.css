@@ -89,3 +89,8 @@ a:hover {
 .rotate270 { transform: rotate(-90deg); }
 .flipH { transform: scaleX(-1); }
 .flipV { transform: scaleY(-1); }
+
+.rotate90,
+.rotate270 {
+  max-width: 420px;
+}
