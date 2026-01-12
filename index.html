@@ -20,69 +20,71 @@
 </div>
 
 <div class="section">
-<h2>Electromagnetic Systems and Control</h2>
-<p><em>Masters research project</em></p>
+  <h2>Electromagnetic Systems and Control</h2>
+  <p><em>Masters research project</em></p>
 
-<p>
-  This project explores how magnetic fields can be used to control the motion
-  of magnetized particles for magnetic drug delivery, where therapeutic
-  particles are directed toward sites of disease.
-</p>
+  <p>
+    This project explores how magnetic fields can be used to control the motion
+    of magnetized particles for magnetic drug delivery, where therapeutic
+    particles are directed toward sites of disease.
+  </p>
 
-<h3>Problem</h3>
-<p>
-  Magnetic fields cannot create stable equilibrium points in free space to
-  trap magnetized particles. Magnetized spherical particles, which are commonly 
-  used as therapeutic carriers, align with the applied field and move toward 
-  its source, making precise positioning infeasible. In contrast, anisotropic 
-  magnetic nanorods exhibit transient rotational dynamics that can be used to push 
-  the particles away from the source.
-</p>
+  <h3>Problem</h3>
+  <p>
+    Magnetic fields cannot create stable equilibrium points in free space to
+    trap magnetized particles. Magnetized spherical particles, which are commonly 
+    used as therapeutic carriers, align with the applied field and move toward 
+    its source, making precise positioning infeasible. In contrast, anisotropic 
+    magnetic nanorods exhibit transient rotational dynamics that can be used to push 
+    the particles away from the source.
+  </p>
 
-<h3>Model and Control Strategy</h3>
-<p>
-  I developed a physics-based dynamic model describing the rotational and 
-  translational motion of magnetic nanorods under external magnetic fields.
-  The model captures transient rotational dynamics caused by particle
-  anisotropy and demonstrates how magnetic targeting can be achieved in the 
-  absence of a stable equilibrium point.
-</p>
-<p>
-  A uniform magnetic field aligned the nanorods along a fixed direction, after
-  which a second pulse applied in the opposite direction pushed the particles
-  away from the field source. Repeating this actuation periodically in four
-  directions produced net average motion toward a target point.
-</p>
-<p>
-  This control strategy builds on prior experimental work, with the pulse sequence
-  modified to use sinusoidal fields to better reflect realistic experimental
-  constraints.
-</p>
+  <h3>Model and Control Strategy</h3>
+  <p>
+    I developed a physics-based dynamic model describing the rotational and 
+    translational motion of magnetic nanorods under external magnetic fields.
+    The model captures transient rotational dynamics caused by particle
+    anisotropy and demonstrates how magnetic targeting can be achieved in the 
+    absence of a stable equilibrium point.
+  </p>
+  <p>
+    A uniform magnetic field aligned the nanorods along a fixed direction, after
+    which a second pulse applied in the opposite direction pushed the particles
+    away from the field source. Repeating this actuation periodically in four
+    directions produced net average motion toward a target point.
+  </p>
+  <p>
+    This control strategy builds on prior experimental work, with the pulse sequence
+    modified to use sinusoidal fields to better reflect realistic experimental
+    constraints.
+  </p>
   
-<h3>Simulation</h3>
-<p>
-  The system dynamics were simulated in MATLAB to study transient behavior
-  and stability over a single actuation period. The simulations were also
-  used to study the average behavior of the particle, confirming that the 
-  control sequence produces an average net displacement toward the target.
-  These results guided parameter selection and experimental testing.
-</p>
+  <h3>Simulation</h3>
+  <p>
+    The system dynamics were simulated in MATLAB to study transient behavior
+    and stability over a single actuation period. The simulations were also
+    used to study the average behavior of the particle, confirming that the 
+    control sequence produces an average net displacement toward the target.
+    These results guided parameter selection and experimental testing.
+  </p>
 
-<h3>Experimental Validation</h3>
-<p>
-  The model and control approach were validated through laboratory experiments
-  using LabVIEW and the Arduino IDE. The observed transient dynamics matched those
-  predicted by the model.
-</p>
+  <h3>Experimental Validation</h3>
+  <p>
+    The model and control approach were validated through laboratory experiments
+    using LabVIEW and the Arduino IDE. The observed transient dynamics matched those
+    predicted by the model.
+  </p>
   
-<p>
-  This work is currently under review for the American Control Conference (ACC).
-</p>
+  <p>
+    This work is currently under review for the American Control Conference (ACC).
+  </p>
 
-<p>
-  <b>Tools / domains:</b> Electromagnetics, dynamic modeling, control systems,
-  MATLAB simulation, LabVIEW, Arduino, experimental validation, 3D printing
-</p>
+  <p>
+    <b>Tools / domains:</b> Electromagnetics, dynamic modeling, control systems,
+    MATLAB simulation, LabVIEW, Arduino, experimental validation, 3D printing
+  </p>
+
+  <img src="assets/IMG_7872.PNG" alt="Experimental testbed for validation with magnetic particle">
 </div>
 
 <div class="section">
@@ -115,6 +117,8 @@
     frontier-based exploration, system integration and debugging,
     real-time deployment on quadruped hardware (Unitree Go2)
   </p>
+
+  <img src="assets/IMG_7870.PNG" alt="Unitree Go2 mapping maze environment">
 </div>
 
 <div class="section">
@@ -159,7 +163,8 @@
     <b>Tools / domains:</b> Raspberry Pi, Falcon Player (FPP), embedded Linux,
     networking, system configuration, Light-O-Rama, WOW Lights
   </p>
-  
+
+  <img src="assets/Light_Show.mp4" alt="Light show sequence">
 </div>
 
 
