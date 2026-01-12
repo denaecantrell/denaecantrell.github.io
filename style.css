@@ -74,8 +74,8 @@ a:hover {
 /* Cropped tall phone photos */
 .crop {
   width: 100%;
-  max-width: 700px;
-  height: 720px;
+  max-width: 900px;
+  height: 420px;
   object-fit: cover;
   object-position: center;
   border-radius: 10px;
