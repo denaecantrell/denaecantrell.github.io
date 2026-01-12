@@ -43,3 +43,49 @@ a:hover {
   margin-top: 0;
   color: #003a8f;
 }
+
+/* Project images */
+.project-image {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  display: block;
+  margin: 18px auto;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* Two-image rows (robot + map, sim + experiment, etc.) */
+.image-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.image-row img {
+  width: 48%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* Cropped tall phone photos */
+.crop {
+  width: 100%;
+  max-width: 700px;
+  height: 420px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  display: block;
+  margin: 18px auto;
+}
+
+/* Rotation + flips */
+.rotate90 { transform: rotate(90deg); }
+.rotate270 { transform: rotate(-90deg); }
+.flipH { transform: scaleX(-1); }
+.flipV { transform: scaleY(-1); }
